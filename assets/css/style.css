@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.8s;
   border: 2px solid #68A4C4;
 }
-/* 
+
 #PNA_read .btn-get-started:hover {
   background: #68A4C4;
   color: #fff;
@@ -372,7 +372,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #PNA_read{
   background: linear-gradient(to right, rgba(30, 67, 86, 0.822), rgba(30, 67, 86, 0.767)), url("../img/rna_readMore.jpg") center top no-repeat;
   background-size: cover;
-} */
+}
 
 #hero {
   width: 100%;
@@ -531,6 +531,11 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+}
+
+.autre {
+  text-align: center;
+  padding-bottom: 0;
 }
 
 .section-title h2 {
@@ -2325,14 +2330,13 @@ section {
   background-color: #00bfff;
 }
 
-
-#hero_2 {
-  height: 100vh;
+.hero_2_2 {
+  height: 60vh;
   overflow: hidden;
   position: relative;
 }
 
-#hero_2 .c1{
+.hero_2_2 .c1{
   width: 100%;
   height: 60vh;
   padding: 60px;
@@ -2340,7 +2344,7 @@ section {
   background: linear-gradient(to right, rgba(30, 67, 86, 0.822), rgba(30, 67, 86, 0.767)), url("../img/about.jpg") center top no-repeat;
 }
 
-#hero_2 .c2{
+.hero_2_2 .c2{
   width: 100%;
   height: 60vh;
   padding: 60px;
@@ -2348,7 +2352,7 @@ section {
   background: linear-gradient(to right, rgba(30, 67, 86, 0.822), rgba(43, 74, 90, 0.644)), url("../img/img1.png") center top no-repeat;
 }
 
-#hero_2 .c3{
+.hero_2_2 .c3{
   width: 100%;
   height: 60vh;
   padding: 60px;
@@ -2369,7 +2373,7 @@ section {
   transform: translateX(-50%) rotate(0deg);
 } */
 
-#hero_2 .carousel-container {
+.hero_2_2 .carousel-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2381,14 +2385,14 @@ section {
   right: 0;
 }
 
-#hero_2 h2 {
+.hero_2_2 h2 {
   color: #fff;
   margin-bottom: 30px;
   font-size: 48px;
   font-weight: 700;
 }
 
-#hero_2 p {
+.hero_2_2 p {
   width: 80%;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
@@ -2396,11 +2400,11 @@ section {
   color: #fff;
 }
 
-#hero_2 .carousel-control-prev, #hero_2 .carousel-control-next {
+.hero_2_2 .carousel-control-prev, .hero_2_2 .carousel-control-next {
   width: 10%;
 }
 
-#hero_2 .carousel-control-next-icon, #hero_2 .carousel-control-prev-icon {
+.hero_2_2 .carousel-control-next-icon, .hero_2_2 .carousel-control-prev-icon {
   background: none;
   font-size: 48px;
   line-height: 1;
@@ -2408,7 +2412,7 @@ section {
   height: auto;
 }
 
-#hero_2 .btn-get-started {
+.hero_2_2 .btn-get-started {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -2425,7 +2429,7 @@ section {
   border: 2px solid #68A4C4;
 }
 
-#hero_2 .btn-get-started:hover {
+.hero_2_2 .btn-get-started:hover {
   background: #68A4C4;
   color: #fff;
   text-decoration: none;
